@@ -83,7 +83,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #329ba8;
+  background-color: #0766E0;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -112,7 +112,7 @@ input {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
-  color: #555;
+  color: #737373;
   float: left;
   text-align: center;
   font-size: 16px;
@@ -138,8 +138,8 @@ input {
 </div>
 
 <ul id="myUL">
-  {% for record in records reversed%}
-  <li>{{record.title | title}} <span class="close"><a style="text-decoration: none; color: black;" href="delete/{{record.id}}">Delete</a></span></li>
+  {% for record in records reversed %}
+  <li>{{record.title | title}}</li>
   {% endfor %}
 </ul>
 
