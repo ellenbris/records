@@ -8,7 +8,7 @@ Features:
    ```sh
    git clone https://github.com/ellenbris/records.git
    ```
-2. Install requirements
+2. Navigate to cloned file and install requirements
    ```sh
    pip install -r requirements.txt
    ```
