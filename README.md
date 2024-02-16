@@ -10,7 +10,7 @@ Features:
    ```
 2. Navigate to cloned file and install requirements
    ```sh
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 3. Run the Django server
    ```sh
